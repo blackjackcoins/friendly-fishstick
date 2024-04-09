@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @font-face {
   font-family: "Matcha";
-  src: url(./public/MatchadalgonaRegular.otf);
+  src: url(./imagesfalan/MatchadalgonaRegular.otf);
 }
 * {
   padding: 0;
@@ -59,7 +59,7 @@ body nav .nav-content .links a {
 }
 body .bg {
   display: block;
-  background-image: url("./public/Untitled-3.png");
+  background-image: url("./imagesfalan/Untitled-3.png");
   height: 100vh;
   position: absolute;
   width: 100%;
@@ -99,7 +99,7 @@ body .bj-line {
   height: 25px;
 }
 body .bj-line .bj-divider {
-  background-image: url("./public/line.png");
+  background-image: url("./imagesfalan/line.png");
   height: 25px;
   background-repeat: repeat-x;
   border-bottom: 2px solid rgb(0, 102, 255);
