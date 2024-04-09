@@ -63,7 +63,7 @@ body{
     }
     .bg{
         display: block;
-        background-image: url('./public/Untitled-3.png');
+        background-image: url('./imagesfalan/Untitled-3.png');
         height: 100vh;
         position: absolute;
         width: 100%;
@@ -104,7 +104,7 @@ body{
     .bj-line{
         height: 25px;
         .bj-divider{
-            background-image: url("./public/line.png");
+            background-image: url("./imagesfalan/line.png");
             height: 25px;
             background-repeat: repeat-x;
             border-bottom: 2px solid rgb(0, 102, 255);
@@ -178,3 +178,58 @@ body{
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    html{
+        min-width: 430px;
+        width: 100%;
+        min-height: 2100px;
+        box-sizing: border-box;
+    }
+    body {
+        box-sizing: border-box;
+        nav{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .nav-content{
+                .links{
+                    visibility: hidden;
+                }
+            }
+        }
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .bj-frame{
+                display: flex;
+                flex-direction: column-reverse;
+                margin-right: auto;
+                text-align: center;
+                .exp-frame{
+                    text-align: center;
+                    h3{
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .bj-token{
+        .dollar,#dollar2{
+            visibility: hidden;
+
+        }
+        .ekonomics{
+            .ekonom-p{
+                img{
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}
+
+

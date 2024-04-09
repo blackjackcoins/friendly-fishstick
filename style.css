@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @font-face {
   font-family: "Matcha";
-  src: url(./imagesfalan/MatchadalgonaRegular.otf);
+  src: url(./public/MatchadalgonaRegular.otf);
 }
 * {
   padding: 0;
@@ -169,4 +169,48 @@ body .bj-contact span a {
 }
 body .bj-contact .social {
   margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    min-width: 430px;
+    width: 100%;
+    min-height: 2100px;
+    box-sizing: border-box;
+  }
+  body {
+    box-sizing: border-box;
+  }
+  body nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body nav .nav-content .links {
+    visibility: hidden;
+  }
+  body .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .main .bj-frame {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: auto;
+    text-align: center;
+  }
+  body .main .bj-frame .exp-frame {
+    text-align: center;
+  }
+  body .main .bj-frame .exp-frame h3 {
+    margin-left: 20px;
+  }
+  .bj-token .dollar, .bj-token #dollar2 {
+    visibility: hidden;
+  }
+  .bj-token .ekonomics .ekonom-p img {
+    visibility: hidden;
+  }
 }/*# sourceMappingURL=style.css.map */
