@@ -47,7 +47,12 @@
     line-height: 1.50;
 }
   
-  
+
+.bg-frame{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
 
 body{
     background-color: #d90429;
@@ -83,7 +88,7 @@ body{
     }
     .bg{
         display: block;
-        background-image: url('./imagesfalan/Untitled-3.png');
+        background-image: url('./imagesfalan/Untitled-4.png');
         height: 100vh;
         position: absolute;
         width: 100%;
